@@ -1,0 +1,34 @@
+server:
+  port: ${PORT:${SERVER_PORT:9999}}
+
+management:
+  security:
+    enabled: false
+    
+logging:
+  level: 
+    root: info
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+    config:
+      server:
+        git:  
+          default-label: master
+          force-pull: true
+          timeout: 60
+          clone-on-start: true
+          search-paths: service01, service02      
+security:
+  user:
+    name: ${SECURITY_USER:admin}
+    password: ${SECURITY_PASSWORD:admin}
+    role: SYSTEM
+

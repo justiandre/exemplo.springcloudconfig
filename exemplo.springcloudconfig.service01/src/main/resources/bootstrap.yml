@@ -1,0 +1,3 @@
+spring:
+  application.name: service01
+  cloud.config.uri: http://localhost:9999
