@@ -1,10 +1,10 @@
 # exemplo.springcloudconfig
 
-Aplicação de exemplo das tecnologia Spring Cloud Config Server e Client, esse exemplo foi usado na apresentação: [MicroServices: Configurações](ADICIONAR) 
+Aplicação de exemplo das tecnologia Spring Cloud Config Server e Client, esse exemplo foi usado na apresentação: [MicroServices: Configurações](https://pt.slideshare.net/AndrJusti/falando-de-microservices-configuraes) 
 
 ## Links
  
-- [Apresentação - MicroServices: Configurações](ADICIONAR) 
+- [Apresentação - MicroServices: Configurações](https://pt.slideshare.net/AndrJusti/falando-de-microservices-configuraes) 
 - [Repositório com as configurações do exemplo](https://github.com/justiandre/exemplo.springcloudconfig.config.repo)
 
 ## Artefatos
